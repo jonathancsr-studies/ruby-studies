@@ -1,3 +1,5 @@
 capitais = {acre: 'Rio Branco', sao_paulo: 'São Paulo'}
 
-puts capitais
+capitais.each do |key, value|
+  puts "#{key}: #{value}"
+end
